@@ -1,0 +1,26 @@
+# Input text file with running parameters for yeast lipidomics pipelines
+
+# Positive mode - Apolar lipid fractions
+Pos Ion cycling windows: 3
+Pos Starting m/z values of window: 420, 500, 734
+Pos Ending m/z values of window: 532, 790, 1020
+# Pos Starting m/z values of window: 734
+# Pos Ending m/z values of window: 1020
+Pos Cal peaks 420: 487.352375, 529.399375, 522.3554161, 480.3084659
+Pos Cal peaks 500: 753.613375, 552.534975, 675.677924, 605.584424
+Pos Cal peaks 734: 753.613375, 829.798424
+
+# Negative mode - Polar lipid fractions
+Neg Ion cycling windows: 4
+Neg Starting m/z values of window: 350, 545, 640, 790
+Neg Ending m/z values of window: 601, 705, 870, 1160
+Neg Cal peaks 350: 550.520425, 586.4319
+Neg Cal peaks 545: 666.509625, 527.384825, 586.4319, 550.520425
+Neg Cal peaks 640: 740.546425, 793.487259, 718.466462
+Neg Cal peaks 790: 793.487259, 828.562525
+
+
+# Add instrument resolution information
+
+Lipids database: ScLipids_database.xlsx
+Mass accuracy tolerance (ppm): 5.0
